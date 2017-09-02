@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<System name="ManageModels">
+  <Parameters>
+    <Parameter id="0" name="operations" type="1">
+      <values>
+        <value>createModel</value>
+        <value>modifyModels</value>
+        <value>deleteModel</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="1" name="entityName" type="1">
+      <values>
+        <value>name</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="2" name="propertyName" type="1">
+      <values>
+        <value>propertyName</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="3" name="datatype" type="1">
+      <values>
+        <value>String</value>
+        <value>Enum</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="4" name="LinkedTo" type="1">
+      <values>
+        <value>entityName</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+    <Parameter id="5" name="isMandatory" type="1">
+      <values>
+        <value>Yes</value>
+        <value>No</value>
+      </values>
+      <basechoices />
+      <invalidValues />
+    </Parameter>
+  </Parameters>
+  <OutputParameters />
+  <Relations />
+  <Constraints />
+  <Testset doi="2">
+    <Testcase TCNo="0">
+      <Value>1</Value>
+      <Value>createModel</Value>
+      <Value>name</Value>
+      <Value>propertyName</Value>
+      <Value>String</Value>
+      <Value>entityName</Value>
+      <Value>No</Value>
+    </Testcase>
+    <Testcase TCNo="1">
+      <Value>2</Value>
+      <Value>createModel</Value>
+      <Value>name</Value>
+      <Value>propertyName</Value>
+      <Value>Enum</Value>
+      <Value>entityName</Value>
+      <Value>Yes</Value>
+    </Testcase>
+    <Testcase TCNo="2">
+      <Value>3</Value>
+      <Value>modifyModels</Value>
+      <Value>name</Value>
+      <Value>propertyName</Value>
+      <Value>String</Value>
+      <Value>entityName</Value>
+      <Value>Yes</Value>
+    </Testcase>
+    <Testcase TCNo="3">
+      <Value>4</Value>
+      <Value>modifyModels</Value>
+      <Value>name</Value>
+      <Value>propertyName</Value>
+      <Value>Enum</Value>
+      <Value>entityName</Value>
+      <Value>No</Value>
+    </Testcase>
+    <Testcase TCNo="4">
+      <Value>5</Value>
+      <Value>deleteModel</Value>
+      <Value>name</Value>
+      <Value>propertyName</Value>
+      <Value>String</Value>
+      <Value>entityName</Value>
+      <Value>Yes</Value>
+    </Testcase>
+    <Testcase TCNo="5">
+      <Value>6</Value>
+      <Value>deleteModel</Value>
+      <Value>name</Value>
+      <Value>propertyName</Value>
+      <Value>Enum</Value>
+      <Value>entityName</Value>
+      <Value>No</Value>
+    </Testcase>
+  </Testset>
+  <Header>
+    <Value />
+    <Value>OPERATIONS</Value>
+    <Value>ENTITYNAME</Value>
+    <Value>PROPERTYNAME</Value>
+    <Value>DATATYPE</Value>
+    <Value>LINKEDTO</Value>
+    <Value>ISMANDATORY</Value>
+  </Header>
+  <Stat-Data>
+    <ExecutionTime>0.0010</ExecutionTime>
+    <MaxDomainSize>3</MaxDomainSize>
+    <MinDomainSize>1</MinDomainSize>
+    <TotalNoOfCombination>40</TotalNoOfCombination>
+    <TotalNoOfTests>6</TotalNoOfTests>
+    <Algorithm>IPOG</Algorithm>
+  </Stat-Data>
+</System>
+

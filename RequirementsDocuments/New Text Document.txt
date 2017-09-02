@@ -1,0 +1,12 @@
+how do we know the number of wrong likages is less in our system?
+	- metric to measure the number of linkages
+how do we know that the time taken to view the traceability is less in our system?
+	- metric to measure the time taken to view traceability
+how do we know that the system is easier to use compared to existing systems?
+	- metric 
+
+
+
+do you measure the number of wrong linkages in the system? % of wrong likages?
+time taken to view traceability, linking instances, managing instances in the current system?
+ 

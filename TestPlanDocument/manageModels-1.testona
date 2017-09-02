@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TestonaObject id="c0">
+    <!--Created by TESTONA Light 5.1.2-->
+    <Tree id="c1" name="default2.testona" root="c2">
+        <Composition id="c2" name="manageModels" style="background-color:#FFFFFF; color:#000000; font-size:9px; font-family:'Segoe UI'; transform:none" x="443" y="32">
+            <Classification id="c14" name="operations" x="191" y="87">
+                <Class id="c17" name="CreateModel" x="87" y="139"/>
+                <Class id="c20" name="ModifyModel" x="185" y="139"/>
+                <Class id="c23" name="DeleteModel" x="287" y="139"/>
+            </Classification>
+            <Composition id="c32" name="EntityProperties" x="696" y="87">
+                <Classification id="c35" name="EntityName" x="397" y="140">
+                    <Class id="c47" name="String" x="414" y="192">
+                        <Classification id="c122" name="is" x="417" y="244">
+                            <Class id="c125" name="Valid" x="384" y="296"/>
+                            <Class id="c128" name="Invalid" x="440" y="296"/>
+                        </Classification>
+                    </Class>
+                </Classification>
+                <Classification id="c38" name="propertyName" x="525" y="140">
+                    <Class id="c53" name="PropertyName" x="526" y="192">
+                        <Classification id="c131" name="is" x="552" y="244">
+                            <Class id="c134" name="Valid" x="506" y="296"/>
+                            <Class id="c137" name="Invalid" x="562" y="296"/>
+                        </Classification>
+                    </Class>
+                </Classification>
+                <Classification id="c41" name="Datatype" x="746" y="140">
+                    <Class id="c56" name="String" x="654" y="192"/>
+                    <Class id="c59" name="Enum" x="716" y="192"/>
+                    <Class id="c116" name="Integer" x="777" y="192"/>
+                    <Class id="c119" name="Boolean" x="845" y="192"/>
+                </Classification>
+                <Classification id="c44" name="LinkedTo" x="924" y="140">
+                    <Class id="c62" name="EntityName" x="918" y="192"/>
+                </Classification>
+                <Classification id="c65" name="IsMandatory" x="1018" y="140">
+                    <Class id="c68" name="Yes" x="1011" y="192"/>
+                    <Class id="c71" name="No" x="1067" y="192"/>
+                </Classification>
+            </Composition>
+        </Composition>
+    </Tree>
+    <TestGroup id="c3" name=""/>
+</TestonaObject>

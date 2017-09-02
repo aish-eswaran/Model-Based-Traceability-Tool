@@ -1,0 +1,19 @@
+Low Fidelity Prototype meeting 01
+
+screen 2
+new developer - error message
+
+screen 4 
+different entties for developers - different types of requirements and more
+different associations of model for one person - different roles - intermediate page between 3 and 4
+
+link screen 4 and 5 - after instances, i need to give links
+in screen 5, display the current status alone. you need not display any pop-up messages for anything dats not there
+click link to display hierarchy of the linkage
+avoid selecting IDs
+export 
+
+usability and security
+raw scenario to be written
+performance not our concern
+use goals in sow - refine it and take the related ones 

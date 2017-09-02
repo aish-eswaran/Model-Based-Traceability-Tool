@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TestonaObject id="c0">
+    <!--Created by TESTONA Light 5.1.2-->
+    <Tree id="c1" name="default3.testona" root="c2">
+        <Composition id="c2" name="AiDu Map Feature" style="background-color:#FFFFFF; color:#000000; font-size:9px; font-family:'Segoe UI'; transform:none" x="1355" y="32">
+            <Composition id="c20" name="User" x="634" y="87">
+                <Composition id="c62" name="invalid" x="199" y="140">
+                    <Classification id="c68" name="Deny permissions" x="0" y="193"/>
+                    <Classification id="c71" name="Undefined Location" x="126" y="193"/>
+                    <Classification id="c74" name="Did not register" x="262" y="193"/>
+                    <Classification id="c77" name="Low Battery" x="376" y="193"/>
+                </Composition>
+                <Composition id="c65" name="valid" x="1067" y="140">
+                    <Composition id="c80" name="Location" x="495" y="193">
+                        <Classification id="c83" name="Moving" x="470" y="246"/>
+                        <Classification id="c86" name="Static" x="542" y="246"/>
+                    </Composition>
+                    <Composition id="c89" name="In Aidu Area" x="609" y="193">
+                        <Classification id="c92" name="True" x="603" y="246"/>
+                        <Classification id="c95" name="False" x="659" y="246"/>
+                    </Composition>
+                    <Composition id="c98" name="Native" x="787" y="193">
+                        <Classification id="c101" name="Mandarin" x="718" y="246"/>
+                        <Classification id="c104" name="English" x="801" y="246"/>
+                        <Classification id="c107" name="Null" x="871" y="246"/>
+                    </Composition>
+                    <Composition id="c110" name="Non Native/ L2" x="973" y="193">
+                        <Classification id="c113" name="Mandarin" x="927" y="246"/>
+                        <Classification id="c116" name="English" x="1010" y="246"/>
+                        <Classification id="c119" name="Null" x="1080" y="246"/>
+                    </Composition>
+                    <Composition id="c122" name="Contacts" x="1178" y="193">
+                        <Classification id="c125" name="0" x="1136" y="246"/>
+                        <Classification id="c128" name="1-25" x="1192" y="246"/>
+                        <Classification id="c131" name="&gt;25" x="1248" y="246"/>
+                    </Composition>
+                    <Composition id="c134" name="Visibility" x="1335" y="193">
+                        <Classification id="c137" name="visible" x="1304" y="246"/>
+                        <Classification id="c140" name="invisible" x="1370" y="246"/>
+                    </Composition>
+                    <Composition id="c143" name="Profile card" x="1605" y="193">
+                        <Composition id="c146" name="Valid" x="1623" y="246">
+                            <Classification id="c149" name="No data filled" x="1446" y="299"/>
+                            <Classification id="c152" name="Large data filled" x="1550" y="299"/>
+                            <Classification id="c155" name="All data filled" x="1667" y="299"/>
+                            <Classification id="c158" name="Half data filled" x="1769" y="299"/>
+                        </Composition>
+                    </Composition>
+                </Composition>
+            </Composition>
+            <Composition id="c23" name="Local Settings" x="1864" y="87">
+                <Classification id="c41" name="on" x="1863" y="140"/>
+                <Classification id="c44" name="off" x="1919" y="140"/>
+            </Composition>
+            <Composition id="c29" name="System Resource" x="1968" y="87">
+                <Classification id="c47" name="ram" x="1975" y="140"/>
+                <Classification id="c50" name="cpu" x="2031" y="140"/>
+            </Composition>
+            <Composition id="c32" name="Network" x="2130" y="87">
+                <Classification id="c53" name="off" x="2087" y="140"/>
+                <Classification id="c56" name="slow" x="2143" y="140"/>
+                <Classification id="c59" name="fast" x="2199" y="140"/>
+            </Composition>
+        </Composition>
+    </Tree>
+    <TestGroup id="c3" name=""/>
+</TestonaObject>
